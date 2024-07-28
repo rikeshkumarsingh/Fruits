@@ -1,0 +1,41 @@
+.img2{
+    height: 200px;
+    width: 500px;
+    border-radius: 15px;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+}
+
+.box{
+    border-radius: 15px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.farmar{
+    height: 68vh;
+}
+.product{
+    /* height: 500px;
+    width: 500px; */
+    height: 70vh;
+    width: 34vw;
+}
+.product-image{
+    /* height: 500px;
+    width: 500px; */
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+
+    .farmar{
+        height: 50vh;
+    }
+    .product{
+        /* height: 500px;
+        width: 500px; */
+        height: 40vh;
+        width: 84vw;
+    }
+
+}

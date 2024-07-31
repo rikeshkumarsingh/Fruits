@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div>
             <div className="container-fluid px-5 d-none d-lg-block">
-                <div className="row gx-5 py-3 align-items-center">
+                <div className="row gx-5  align-items-center">
                     <div className="col-lg-3">
                         <div className="d-flex align-items-center justify-content-start">
                             <i className="bi bi-phone-vibrate fs-1 text-primary me-2" />

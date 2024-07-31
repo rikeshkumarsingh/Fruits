@@ -10,13 +10,13 @@
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .farmar{
-    height: 68vh;
+    height: 500px;
 }
 .product{
-    /* height: 500px;
-    width: 500px; */
-    height: 70vh;
-    width: 34vw;
+    height: 500px;
+    width: 500px;
+    /* height: 70vh;
+    width: 34vw; */
 }
 .product-image{
     /* height: 500px;
@@ -25,6 +25,19 @@
     width: 100%;
     border-radius: 10px;
 }
+.bg-ground{
+    height: 350px;
+}
+.wmb-5{
+    margin-bottom: 3rem !important;
+}
+@media (min-width: 991.98px) {
+    .banner2 {
+        position: relative;
+        margin-top: -200px;;
+        z-index: 1;
+    }
+  }
 
 @media (max-width: 576px) {
 

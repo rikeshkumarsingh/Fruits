@@ -61,7 +61,7 @@ const Footer = () => {
                                 <div className="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-secondary p-5 box">
                                     <h4 className="text-white">Newsletter</h4>
                                     <h6 className="text-white">Subscribe Our Newsletter</h6>
-                                    <p>Amet justo diam dolor rebum lorem sit stet sea justo kasd</p>
+                                    <p>for the latest updates on our organic litchis and exclusive offers. Stay informed!</p>
                                     <form action>
                                         <div className="input-group">
                                             <input type="text" className="form-control border-white p-3" placeholder="Your Email" />

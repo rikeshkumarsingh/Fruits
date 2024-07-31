@@ -24,7 +24,7 @@ const Product = () => {
       <div className="container-fluid bg-primary py-5 bg-hero mb-5">
         <div className="container py-5">
           <div className="row justify-content-start">
-            <div className="col-lg-8 text-center text-lg-start">
+            <div className="col-lg-8 text-center text-lg-start bg-ground">
               <h1 className="display-1 text-white mb-md-4">Product details</h1>
               <Link to={'/'} className="btn btn-primary py-md-3 px-md-5 me-3">Home</Link>
               <Link to={'/contect'} className="btn btn-secondary py-md-3 px-md-5">Contact Us</Link>
@@ -32,15 +32,35 @@ const Product = () => {
           </div>
         </div>
       </div>
-      <div className="container-fluid bg-primary feature pb-lg-0 my-5 ">
-                <div className="container py-5 pb-lg-0">
-                    <div className="mx-auto text-center mb-3 pb-2" style={{ maxWidth: 500 }}>
-                        <h6 className="text-uppercase text-secondary">Varieties</h6>
-                        <h1 className="display-5 text-white mb-5">We produce a large variety of litchis!!!</h1>
-                    </div>
-                    
-                </div>
+      <div className="container-fluid banner2 mb-5 ">
+        <div className="container">
+          <div className="row gx-0 box">
+            <div className="col-md-6">
+              <div className="bg-primary bg-vegetable d-flex flex-column justify-content-center p-5" style={{ height: 300 }}>
+                <h3 className="text-white mb-3">Organic Litchis</h3>
+                <p className="text-white">Experience the deliciously sweet and juicy taste of our organic litchis, grown naturally without synthetic chemicals. Perfect for a healthy and refreshing treat!</p>
+                <a className="text-white fw-bold" href>Read More<i className="bi bi-arrow-right ms-2" /></a>
+              </div>
             </div>
+            <div className="col-md-6">
+              <div className="bg-secondary bg-fruit d-flex flex-column justify-content-center p-5" style={{ height: 300 }}>
+                <h3 className="text-white mb-3">Organic Fruits</h3>
+                <p className="text-white">Enjoy the pure taste of nature with our organic fruits, grown without synthetic chemicals. Savor the freshness and health benefits in every bite!</p>
+                <a className="text-white fw-bold" href>Read More<i className="bi bi-arrow-right ms-2" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container-fluid bg-primary feature pb-lg-0 my-5 ">
+        <div className="container py-5 pb-lg-0">
+          <div className="mx-auto text-center mb-3 pb-2" style={{ maxWidth: 500 }}>
+            <h6 className="text-uppercase text-secondary">Varieties</h6>
+            <h1 className="display-5 text-white mb-5">We produce a large variety of litchis!!!</h1>
+          </div>
+
+        </div>
+      </div>
       <div className="container-fluid about pt-5">
         <div className="container">
           <div className="row gx-5">
@@ -368,6 +388,9 @@ const Product = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className='py-4'>
+
       </div>
     </div>
   )

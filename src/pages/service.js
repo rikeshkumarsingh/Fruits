@@ -77,7 +77,7 @@ const Service = () => {
                     </div>
                 </div>
             </div>
-            <div className="container-fluid bg-primary feature py-5 pb-lg-0 my-5">
+            <div className="container-fluid bg-primary feature pb-lg-0 my-5 py-5">
                 <div className="container py-5 pb-lg-0">
                     <div className="mx-auto text-center mb-3 pb-2" style={{ maxWidth: 500 }}>
                         <h6 className="text-uppercase text-secondary">Features</h6>
@@ -125,6 +125,9 @@ const Service = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='py-1'>
+
             </div>
         </div>
     )

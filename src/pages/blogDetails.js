@@ -36,55 +36,53 @@ const BlogDetails = () => {
                                         <img className="img-fluid w-100" src={blog2} alt />
                                     </div>
                                 </div>
-                                <h1 className="mb-4">Diam dolor est labore duo ipsum clita sed et lorem tempor duo</h1>
-                                <p>Sadipscing labore amet rebum est et justo gubergren. Et eirmod ipsum sit diam ut
-                                    magna lorem. Nonumy vero labore lorem sanctus rebum et lorem magna kasd, stet
-                                    amet magna accusam consetetur eirmod. Kasd accusam sit ipsum sadipscing et at at
-                                    sanctus et. Ipsum sit gubergren dolores et, consetetur justo invidunt at et
-                                    aliquyam ut et vero clita. Diam sea sea no sed dolores diam nonumy, gubergren
-                                    sit stet no diam kasd vero.</p>
-                                <p>Voluptua est takimata stet invidunt sed rebum nonumy stet, clita aliquyam dolores
-                                    vero stet consetetur elitr takimata rebum sanctus. Sit sed accusam stet sit
-                                    nonumy kasd diam dolores, sanctus lorem kasd duo dolor dolor vero sit et. Labore
-                                    ipsum duo sanctus amet eos et. Consetetur no sed et aliquyam ipsum justo et,
-                                    clita lorem sit vero amet amet est dolor elitr, stet et no diam sit. Dolor erat
-                                    justo dolore sit invidunt.</p>
-                                <p>Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor
-                                    invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam
-                                    lorem sed. Magna amet sed rebum eos. Clita no magna no dolor erat diam tempor
-                                    rebum consetetur, sanctus labore sed nonumy diam lorem amet eirmod. No at tempor
-                                    sea diam kasd, takimata ea nonumy elitr sadipscing gubergren erat. Gubergren at
-                                    lorem invidunt sadipscing rebum sit amet ut ut, voluptua diam dolores at
-                                    sadipscing stet. Clita dolor amet dolor ipsum vero ea ea eos.</p>
+                                <h1 className="mb-4">The Finest Organic Litchis: Grown in Muzaffarpur, Bihar, India</h1>
+                                <p>Nestled in the heart of Bihar, India, Muzaffarpur is renowned for producing some of the finest litchis in the world. This region, with its fertile soil and favorable climate, is the perfect place for growing litchis that are not only delicious but also organically cultivated. Our organic litchis from Muzaffarpur are a testament to the traditional farming methods combined with modern organic practices, resulting in a fruit that is unparalleled in taste and quality.</p>
+                                <h3>Why Muzaffarpur Litchis are the Best</h3>
+                                <p><b>1. Ideal Growing Conditions:</b> The climate of Muzaffarpur, with its hot summers and cool winters, provides the perfect environment for litchi trees to thrive. The alluvial soil, rich in nutrients, further enhances the growth and quality of the litchis.</p>
+                                <p><b>2. Organic Farming Practices:</b> We adhere to strict organic farming practices, ensuring that our litchis are free from synthetic pesticides and fertilizers. This not only makes our litchis healthier but also more flavorful.</p>
+                                <p><b>3. Peak Harvest Time:</b> Our litchis are typically ready to eat in April and May. During this time, the fruits are at their peak ripeness, offering a juicy and sweet flavor that is truly irresistible.</p>
+                                <p><b>4. Handpicked with Care:</b> Each litchi is handpicked to ensure that only the best fruits make it to your table. This meticulous process guarantees that our litchis are of the highest quality, with a perfect balance of sweetness and juiciness.</p>
+                                <p><b>5. Nutritional Benefits:</b> Litchis are not only delicious but also packed with essential vitamins and minerals. They are an excellent source of Vitamin C, antioxidants, and dietary fiber, making them a healthy choice for your diet.</p>
+                                <h3>Experience the Best Litchis in the World</h3>
+                                <p>Our organic litchis from Muzaffarpur are more than just a fruit; they are a symbol of quality and tradition. When you bite into one of our litchis, you experience the dedication and care that goes into every step of the growing process. From the fertile fields of Muzaffarpur to your table, our litchis bring you the best nature has to offer.</p>
+                            
                             </div>
                             {/* Blog Detail End */}
                             {/* Comment List Start */}
                             <div className="mb-5">
-                                <h2 className="mb-4">3 Comments</h2>
+                                <h2 className="mb-4">4 Comments</h2>
                                 <div className="d-flex mb-4">
                                     <img src={user1} className="img-fluid" style={{ width: 45, height: 45 }} />
                                     <div className="ps-3">
-                                        <h6><a href>John Doe</a> <small><i>01 Jan 2045</i></small></h6>
-                                        <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
-                                            accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed eirmod</p>
+                                        <h6><a href> Ramesh Meena</a> </h6>
+                                        <p>I had the pleasure of trying Muzaffarpur litchis last summer, and they were the best I've ever tasted. The organic quality really makes a difference!</p>
                                         <button className="btn btn-sm btn-primary">Reply</button>
                                     </div>
                                 </div>
                                 <div className="d-flex mb-4">
                                     <img src={user1} className="img-fluid" style={{ width: 45, height: 45 }} />
                                     <div className="ps-3">
-                                        <h6><a href>John Doe</a> <small><i>01 Jan 2045</i></small></h6>
-                                        <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
-                                            accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed eirmod</p>
+                                        <h6><a href>Sophie K</a> </h6>
+                                        <p>I'm so impressed with the flavor and freshness of these litchis. It's great to know they are grown organically without any harmful chemicals.</p>
+                                        <button className="btn btn-sm btn-primary">Reply</button>
+                                    </div>
+                                </div>
+                                <div className="d-flex  mb-4">
+                                    <img src={user1} className="img-fluid" style={{ width: 45, height: 45 }} />
+                                    <div className="ps-3">
+                                        <h6><a href>Rajesh P</a> </h6>
+                                        <p>As a litchi lover, I can confirm that Muzaffarpur litchis are indeed the best in the world. The sweetness and juiciness are unmatched!</p>
                                         <button className="btn btn-sm btn-primary">Reply</button>
                                     </div>
                                 </div>
                                 <div className="d-flex ms-5 mb-4">
                                     <img src={user1} className="img-fluid" style={{ width: 45, height: 45 }} />
                                     <div className="ps-3">
-                                        <h6><a href>John Doe</a> <small><i>01 Jan 2045</i></small></h6>
-                                        <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
-                                            accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed eirmod</p>
+
+                                    {/* <h6><a href>Emily R</a> <small><i>01 Jan 2045</i></small></h6> */}
+                                        <h6><a href>Emily R</a> </h6>
+                                        <p>I subscribed to the newsletter and received some great tips on how to enjoy litchis in different recipes. Highly recommend trying these litchis!</p>
                                         <button className="btn btn-sm btn-primary">Reply</button>
                                     </div>
                                 </div>
@@ -127,13 +125,13 @@ const BlogDetails = () => {
                             {/* Search Form End */}
                             {/* Category Start */}
                             <div className="mb-5">
-                                <h2 className="mb-4">Categories</h2>
+                                <h2 className="mb-4">We Export To</h2>
                                 <div className="d-flex flex-column justify-content-start bg-primary p-4">
-                                    <a className="fs-5 fw-bold text-white mb-2" href="#"><i className="bi bi-arrow-right me-2" />Web Design</a>
-                                    <a className="fs-5 fw-bold text-white mb-2" href="#"><i className="bi bi-arrow-right me-2" />Web Development</a>
-                                    <a className="fs-5 fw-bold text-white mb-2" href="#"><i className="bi bi-arrow-right me-2" />Web Development</a>
-                                    <a className="fs-5 fw-bold text-white mb-2" href="#"><i className="bi bi-arrow-right me-2" />Keyword Research</a>
-                                    <a className="fs-5 fw-bold text-white" href="#"><i className="bi bi-arrow-right me-2" />Email Marketing</a>
+                                    <a className="fs-5 fw-bold text-white mb-2" href="#"><i className="bi bi-arrow-right me-2" />USA</a>
+                                    <a className="fs-5 fw-bold text-white mb-2" href="#"><i className="bi bi-arrow-right me-2" />UK</a>
+                                    <a className="fs-5 fw-bold text-white mb-2" href="#"><i className="bi bi-arrow-right me-2" />Malesia</a>
+                                    <a className="fs-5 fw-bold text-white mb-2" href="#"><i className="bi bi-arrow-right me-2" />Dubai</a>
+                                    <a className="fs-5 fw-bold text-white" href="#"><i className="bi bi-arrow-right me-2" />Thailand</a>
                                 </div>
                             </div>
                             {/* Category End */}
@@ -176,20 +174,20 @@ const BlogDetails = () => {
                             {/* Image End */}
                             {/* Tags Start */}
                             <div className="mb-5">
-                                <h2 className="mb-4">Tag Cloud</h2>
+                                <h2 className="mb-4">Plaining to export</h2>
                                 <div className="d-flex flex-wrap m-n1">
-                                    <a href className="btn btn-primary m-1">Design</a>
-                                    <a href className="btn btn-primary m-1">Development</a>
-                                    <a href className="btn btn-primary m-1">Marketing</a>
-                                    <a href className="btn btn-primary m-1">SEO</a>
-                                    <a href className="btn btn-primary m-1">Writing</a>
-                                    <a href className="btn btn-primary m-1">Consulting</a>
-                                    <a href className="btn btn-primary m-1">Design</a>
-                                    <a href className="btn btn-primary m-1">Development</a>
-                                    <a href className="btn btn-primary m-1">Marketing</a>
-                                    <a href className="btn btn-primary m-1">SEO</a>
-                                    <a href className="btn btn-primary m-1">Writing</a>
-                                    <a href className="btn btn-primary m-1">Consulting</a>
+                                    <a href className="btn btn-primary m-1">JAPAN</a>
+                                    <a href className="btn btn-primary m-1">RUSSIA</a>
+                                    <a href className="btn btn-primary m-1">FINLAND</a>
+                                    <a href className="btn btn-primary m-1">SWEDEN</a>
+                                    <a href className="btn btn-primary m-1">GERMANY</a>
+                                    <a href className="btn btn-primary m-1">ITALY</a>
+                                    <a href className="btn btn-primary m-1">FRANCE</a>
+                                    <a href className="btn btn-primary m-1">SPAIN</a>
+                                    <a href className="btn btn-primary m-1">AUSTRIA</a>
+                                    <a href className="btn btn-primary m-1">CANADA</a>
+                                    <a href className="btn btn-primary m-1">SOUTH KOREA</a>
+                                    <a href className="btn btn-primary m-1">AUSTRALIA</a>
                                 </div>
                             </div>
                             {/* Tags End */}

@@ -4,9 +4,9 @@ import '../lib/boots.css'
 import PureCounter from '@srexi/purecounterjs';
 import $ from 'jquery';
 import about from '../img/about.png';
-import team1 from '../img/IMG_3294.HEIC';
+import team1 from '../img/team-3.jpg';
 import team2 from '../img/aadi.jpg';
-import team3 from '../img/team-3.jpg';
+import team3 from '../img/team1.jpg';
 import { Link } from 'react-router-dom';
 
 const Aboutus = () => {
@@ -235,7 +235,7 @@ const Aboutus = () => {
                   <div className="position-relative">
                     <img className="img-fluid w-100 farmar" src={team2} alt="Image" />
                     <div className="position-absolute start-0 bottom-0 w-100 py-3 px-4" style={{ background: 'rgba(52, 173, 84, .85)' }}>
-                      <h4 className="text-white">Aadi Thakur</h4>
+                      <h4 className="text-white">Gaurav Singh</h4>
                       <span className="text-white">Farmer</span>
                     </div>
                   </div>
@@ -256,8 +256,8 @@ const Aboutus = () => {
                   <div className="position-relative">
                     <img className="img-fluid w-100 farmar" src={team3} alt="Image" />
                     <div className="position-absolute start-0 bottom-0 w-100 py-3 px-4" style={{ background: 'rgba(52, 173, 84, .85)' }}>
-                      <h4 className="text-white">Farmer Name</h4>
-                      <span className="text-white">Designation</span>
+                      <h4 className="text-white">Aadi Thakur</h4>
+                      <span className="text-white">Farmer</span>
                     </div>
                   </div>
                 </div>

@@ -14,9 +14,9 @@ import 'jquery.counterup/jquery.counterup.min';
 import image1 from '../img/carousel-1.jpg';
 import image2 from '../img/carousel-2.png';
 import product1 from '../img/product-1.png';
-import team1 from '../img/IMG_3294.HEIC';
+import team1 from '../img/team-3.jpg';
 import team2 from '../img/aadi.jpg';
-import team3 from '../img/team-3.jpg';
+import team3 from '../img/team1.jpg';
 import blog1 from '../img/blog-1.jpg';
 import blog2 from '../img/blog-2.png';
 import blog3 from '../img/blog-3.png';
@@ -253,7 +253,7 @@ const Dashboard = () => {
                                     </div>
                                     <div className="ps-4">
                                         <h5 className="text-white">Complete Project</h5>
-                                        <h1 className="display-5 text-white mb-0" data-toggle="counter-up"><span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="2" className="purecounter"></span>+</h1>
+                                        <h1 className="display-5 text-white mb-0" data-toggle="counter-up"><span data-purecounter-start="0" data-purecounter-end="120" data-purecounter-duration="2" className="purecounter"></span>+</h1>
                                     </div>
                                 </div>
                             </div>
@@ -264,7 +264,7 @@ const Dashboard = () => {
                                     </div>
                                     <div className="ps-4">
                                         <h5 className="text-white">Happy Clients</h5>
-                                        <h1 className="display-5 text-white mb-0" data-toggle="counter-up"><span data-purecounter-start="0" data-purecounter-end="120" data-purecounter-duration="2" className="purecounter"></span>+</h1>
+                                        <h1 className="display-5 text-white mb-0" data-toggle="counter-up"><span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="2" className="purecounter"></span>+</h1>
                                     </div>
                                 </div>
                             </div>
@@ -286,37 +286,37 @@ const Dashboard = () => {
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-item bg-light text-center p-5 box">
-                                    <i className="fa fa-carrot display-1 text-primary mb-3" />
-                                    <h4>Fresh Vegetables</h4>
-                                    <p className="mb-0">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p>
+                                    <i className="fas fa-leaf display-1 text-primary mb-3" />
+                                    <h4>Organic Tree</h4>
+                                    <p className="mb-0">Our organic trees are nurtured without synthetic chemicals, producing the healthiest and tastiest fruits. Enjoy pure, natural goodness in every bite!</p>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-item bg-light text-center p-5 box">
                                     <i className="fa fa-apple-alt display-1 text-primary mb-3" />
                                     <h4>Fresh Fruits</h4>
-                                    <p className="mb-0">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p>
+                                    <p className="mb-0">Our fresh fruits are harvested at peak ripeness, ensuring maximum flavor and nutrition. Enjoy the delicious taste and health benefits daily!</p>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-item bg-light text-center p-5 box">
                                     <i className="fa fa-dog display-1 text-primary mb-3" />
                                     <h4>Healty Cattle</h4>
-                                    <p className="mb-0">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p>
+                                    <p className="mb-0">Our healthy cattle are raised naturally, without synthetic hormones or antibiotics. Enjoy high-quality, nutritious beef that you can trust.</p>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-item bg-light text-center p-5 box">
                                     <i className="fa fa-tractor display-1 text-primary mb-3" />
-                                    <h4>Modern Truck</h4>
-                                    <p className="mb-0">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p>
+                                    <h4>Modern Farming</h4>
+                                    <p className="mb-0">Modern farming blends traditional methods with innovative technology to produce high-quality, sustainable crops with minimal environmental impact.</p>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-item bg-light text-center p-5 box">
                                     <i className="fa fa-seedling display-1 text-primary mb-3" />
                                     <h4>Farming Plans</h4>
-                                    <p className="mb-0">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p>
+                                    <p className="mb-0">Our farming plans ensure efficiency and sustainability, producing high-quality crops while conserving resources and protecting the environment.</p>
                                 </div>
                             </div>
                         </div>
@@ -500,7 +500,7 @@ const Dashboard = () => {
                                         <div className="position-relative">
                                             <img className="img-fluid w-100 farmar" src={team2} alt="Image" />
                                             <div className="position-absolute start-0 bottom-0 w-100 py-3 px-4" style={{ background: 'rgba(52, 173, 84, .85)' }}>
-                                                <h4 className="text-white">Aadi Thakur</h4>
+                                                <h4 className="text-white">Gaurav Singh</h4>
                                                 <span className="text-white">Farmer</span>
                                             </div>
                                         </div>
@@ -521,8 +521,8 @@ const Dashboard = () => {
                                         <div className="position-relative">
                                             <img className="img-fluid w-100 farmar" src={team3} alt="Image" />
                                             <div className="position-absolute start-0 bottom-0 w-100 py-3 px-4" style={{ background: 'rgba(52, 173, 84, .85)' }}>
-                                                <h4 className="text-white">Farmer Name</h4>
-                                                <span className="text-white">Designation</span>
+                                                <h4 className="text-white">Aadi Thakur</h4>
+                                                <span className="text-white">Farmer</span>
                                             </div>
                                         </div>
                                     </div>

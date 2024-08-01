@@ -83,7 +83,7 @@ const Contect = () => {
                         <div className="col-lg-8 text-center text-lg-start">
                             <h1 className="display-1 text-white mb-md-4">Contact Us</h1>
                             <Link to={'/'} className="btn btn-primary py-md-3 px-md-5 me-3">Home</Link>
-                            <Link to={'/contect'} className="btn btn-secondary py-md-3 px-md-5">About Us</Link>
+                            <Link to={'/about'} className="btn btn-secondary py-md-3 px-md-5">About Us</Link>
                         </div>
                     </div>
                 </div>

@@ -136,7 +136,7 @@ const Dashboard = () => {
                                     <div className="text-start p-5" style={{ maxWidth: 900 }}>
                                         <h3 className="text-white"> Delicious Lychee</h3>
                                         <h1 className="display-1 text-white mb-md-4">Best Lychees in the World</h1>
-                                        <Link to={'/contect'} className="btn btn-primary py-md-3 px-md-5 me-3">Explore</Link>
+                                        <Link to={'/product'} className="btn btn-primary py-md-3 px-md-5 me-3">Explore</Link>
                                         <Link to={'/contect'} className="btn btn-secondary py-md-3 px-md-5">Contact</Link>
                                     </div>
                                 </div>
@@ -549,7 +549,7 @@ const Dashboard = () => {
                         </div>
                         <div className="row g-5">
                             <div className="col-lg-4">
-                                <div className="blog-item position-relative overflow-hidden box">
+                                <div className="blog-item position-relative overflow-hidden box-2">
                                     {/* <img className="img-fluid" src="img/blog-1.jpg" alt /> */}
                                     <img className="img-fluid-blog w-100" src={blog1} alt="Image" />
                                     <a className="blog-overlay" href>
@@ -559,7 +559,7 @@ const Dashboard = () => {
                                 </div>
                             </div>
                             <div className="col-lg-4">
-                                <div className="blog-item position-relative overflow-hidden box">
+                                <div className="blog-item position-relative overflow-hidden box-2">
                                     <img className="img-fluid-blog w-100" src={blog2} alt="Image" />
                                     <a className="blog-overlay" href>
                                         <h4 className="text-white">Organic Litchi Cultivation: How to Grow Sweet and Healthy Fruit</h4>
@@ -568,7 +568,7 @@ const Dashboard = () => {
                                 </div>
                             </div>
                             <div className="col-lg-4">
-                                <div className="blog-item position-relative overflow-hidden box">
+                                <div className="blog-item position-relative overflow-hidden box-2">
                                     <img className="img-fluid-blog w-100" src={blog3} alt="Image" />
                                     <a className="blog-overlay" href>
                                         <h4 className="text-white">Mastering Litchi Farming: Essential Tips for a Bountiful Harvest</h4>

@@ -2,8 +2,13 @@ import React from 'react'
 
 import blog1 from '../img/blog-1.jpg';
 import blog2 from '../img/blog-2.png';
-import user1 from '../img/user.jpg';
+import user1 from '../img/prof.jpg';
+import user2 from '../img/prof-2.jpg';
+import user3 from '../img/prof-3.jpg';
+import user4 from '../img/prof-4.jpg';
+import post2 from '../img/post-2.jpg';
 import blog3 from '../img/blog-3.png';
+import { Link } from 'react-router-dom';
 
 const BlogDetails = () => {
     return (
@@ -15,8 +20,8 @@ const BlogDetails = () => {
                         <div className="row justify-content-start">
                             <div className="col-lg-8 text-center text-lg-start">
                                 <h1 className="display-1 text-white mb-md-4">Blog Detail</h1>
-                                <a href className="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
-                                <a href className="btn btn-secondary py-md-3 px-md-5">Blog Detail</a>
+                                <Link to={'/'} className="btn btn-primary py-md-3 px-md-5 me-3">Home</Link>
+                                <Link to={'/blog'} className="btn btn-secondary py-md-3 px-md-5">Blog Grid</Link>
                             </div>
                         </div>
                     </div>
@@ -61,27 +66,27 @@ const BlogDetails = () => {
                                     </div>
                                 </div>
                                 <div className="d-flex mb-4">
-                                    <img src={user1} className="img-fluid" style={{ width: 45, height: 45 }} />
+                                    <img src={user2} className="img-fluid" style={{ width: 45, height: 45 }} />
                                     <div className="ps-3">
-                                        <h6><a href>Sophie K</a> </h6>
+                                        <h6><a href>Ajay Sharma K</a> </h6>
                                         <p>I'm so impressed with the flavor and freshness of these litchis. It's great to know they are grown organically without any harmful chemicals.</p>
                                         <button className="btn btn-sm btn-primary">Reply</button>
                                     </div>
                                 </div>
                                 <div className="d-flex  mb-4">
-                                    <img src={user1} className="img-fluid" style={{ width: 45, height: 45 }} />
+                                    <img src={user3} className="img-fluid" style={{ width: 45, height: 45 }} />
                                     <div className="ps-3">
-                                        <h6><a href>Rajesh P</a> </h6>
+                                        <h6><a href>Nihar P</a> </h6>
                                         <p>As a litchi lover, I can confirm that Muzaffarpur litchis are indeed the best in the world. The sweetness and juiciness are unmatched!</p>
                                         <button className="btn btn-sm btn-primary">Reply</button>
                                     </div>
                                 </div>
                                 <div className="d-flex ms-5 mb-4">
-                                    <img src={user1} className="img-fluid" style={{ width: 45, height: 45 }} />
+                                    <img src={user4} className="img-fluid" style={{ width: 45, height: 45 }} />
                                     <div className="ps-3">
 
                                     {/* <h6><a href>Emily R</a> <small><i>01 Jan 2045</i></small></h6> */}
-                                        <h6><a href>Emily R</a> </h6>
+                                        <h6><a href>Khaleel Gibran</a> </h6>
                                         <p>I subscribed to the newsletter and received some great tips on how to enjoy litchis in different recipes. Highly recommend trying these litchis!</p>
                                         <button className="btn btn-sm btn-primary">Reply</button>
                                     </div>
@@ -141,27 +146,27 @@ const BlogDetails = () => {
                                 <div className="bg-primary p-4">
                                     <div className="d-flex overflow-hidden mb-3">
                                         <img className="img-fluid flex-shrink-0" src={blog1} style={{ width: 75 }} alt />
-                                        <a href className="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem ipsum dolor sit amet elit
+                                        <a href className="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Taste the best: organic litchis
                                         </a>
                                     </div>
                                     <div className="d-flex overflow-hidden mb-3">
                                         <img className="img-fluid flex-shrink-0" src={blog2} style={{ width: 75 }} alt />
-                                        <a href className="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem ipsum dolor sit amet elit
+                                        <a href className="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Juicy litchis: Organic and delicious
                                         </a>
                                     </div>
                                     <div className="d-flex overflow-hidden mb-3">
                                         <img className="img-fluid flex-shrink-0" src={blog3} style={{ width: 75 }} alt />
-                                        <a href className="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem ipsum dolor sit amet elit
+                                        <a href className="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Experience the finest organic litchis
                                         </a>
                                     </div>
                                     <div className="d-flex overflow-hidden mb-3">
-                                        <img className="img-fluid flex-shrink-0" src={blog1} style={{ width: 75 }} alt />
-                                        <a href className="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem ipsum dolor sit amet elit
+                                        <img className="img-fluid flex-shrink-0" src={post2} style={{ width: 75 }} alt />
+                                        <a href className="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Savor the best: organic litchis
                                         </a>
                                     </div>
                                     <div className="d-flex overflow-hidden">
                                         <img className="img-fluid flex-shrink-0" src={blog2} style={{ width: 75 }} alt />
-                                        <a href className="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem ipsum dolor sit amet elit
+                                        <a href className="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Organic litchis: Sweet and natural
                                         </a>
                                     </div>
                                 </div>
@@ -169,7 +174,7 @@ const BlogDetails = () => {
                             {/* Recent Post End */}
                             {/* Image Start */}
                             <div className="mb-5">
-                                <img src={blog1} alt className="img-fluid rounded" />
+                                <img src={post2} alt className="img-fluid rounded" />
                             </div>
                             {/* Image End */}
                             {/* Tags Start */}
@@ -193,9 +198,9 @@ const BlogDetails = () => {
                             {/* Tags End */}
                             {/* Plain Text Start */}
                             <div>
-                                <h2 className="mb-4">Plain Text</h2>
+                                <h2 className="mb-4">Finest Organic Litchis</h2>
                                 <div className="bg-primary text-center text-white" style={{ padding: 30 }}>
-                                    <p>Vero sea et accusam justo dolor accusam lorem consetetur, dolores sit amet sit dolor clita kasd justo, diam accusam no sea ut tempor magna takimata, amet sit et diam dolor ipsum amet diam</p>
+                                    <p>Experience the finest organic litchis, grown with care and dedication. Our litchis are sweet, juicy, and chemical-free, offering the best taste and health benefits for you and your family. Savor the natural goodness in every bite!</p>
                                     <a href className="btn btn-secondary py-2 px-4">Read More</a>
                                 </div>
                             </div>

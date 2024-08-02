@@ -88,7 +88,7 @@ const Contect = () => {
                     </div>
                 </div>
             </div>
-            <div className="container-fluid py-5">
+            <div className="container-fluid py-5 ">
                 <div className="container">
                     <div className="mx-auto text-center mb-5" style={{ maxWidth: 500 }}>
                         <h6 className="text-primary text-uppercase">Contact Us</h6>
@@ -96,7 +96,7 @@ const Contect = () => {
                     </div>
                     <div className="row g-0 box">
                         <div className="col-lg-7">
-                            <div className="bg-primary h-100 p-5">
+                            <div className="bg-primary h-100 padd">
                                 {/* <form>
                                     <div className="row g-3">
                                         <div className="col-6">
@@ -118,7 +118,7 @@ const Contect = () => {
                                 </form> */}
                                 <form onSubmit={handleSubmit}>
                                     <div className="row g-3">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <input
                                                 type="text"
                                                 className="form-control bg-light border-0 px-4"
@@ -130,7 +130,7 @@ const Contect = () => {
                                                 required
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <input
                                                 type="email"
                                                 className="form-control bg-light border-0 px-4"
@@ -187,33 +187,47 @@ const Contect = () => {
                             </div>
                         </div>
                         <div className="col-lg-5">
-                            <div className="bg-secondary h-100 p-5">
+                            <div className="bg-secondary h-100 padd">
                                 <h2 className="text-white mb-4">Get In Touch</h2>
                                 <div className="d-flex mb-4">
-                                    <div className="bg-primary rounded-circle d-flex align-items-center justify-content-center" style={{ width: 60, height: 60 }}>
-                                        <i className="bi bi-geo-alt fs-4 text-white" />
+                                    <div className='col-2'>
+                                        <div className="bg-primary rounded-circle d-flex align-items-center justify-content-center" style={{ width: 60, height: 60 }}>
+                                            <i className="bi bi-geo-alt fs-4 text-white" />
+                                        </div>
                                     </div>
-                                    <div className="ps-3">
-                                        <h5 className="text-white">Our Office</h5>
-                                        <span className="text-white">Barapakar, Dulma, Madhuban, East Champaran, Bihar, India</span>
+
+                                    <div className='col-10'>
+                                        <div className="ps-3">
+                                            <h5 className="text-white">Our Office</h5>
+                                            <span className="text-white">Barapakar, Dulma, Madhuban, East Champaran, Bihar, India</span>
+                                        </div>
                                     </div>
+
                                 </div>
                                 <div className="d-flex mb-4">
-                                    <div className="bg-primary rounded-circle d-flex align-items-center justify-content-center" style={{ width: 60, height: 60 }}>
-                                        <i className="bi bi-envelope-open fs-4 text-white" />
+                                    <div className='col-2'>
+                                        <div className="bg-primary rounded-circle d-flex align-items-center justify-content-center" style={{ width: 60, height: 60 }}>
+                                            <i className="bi bi-envelope-open fs-4 text-white" />
+                                        </div>
                                     </div>
-                                    <div className="ps-3">
-                                        <h5 className="text-white">Email Us</h5>
-                                        <span className="text-white">rikeshsingh465@gmail.com</span>
+                                    <div className='col-10'>
+                                        <div className="ps-3">
+                                            <h5 className="text-white">Email Us</h5>
+                                            <span className="text-white">rikeshsingh465@gmail.com</span>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="d-flex">
-                                    <div className="bg-primary rounded-circle d-flex align-items-center justify-content-center" style={{ width: 60, height: 60 }}>
-                                        <i className="bi bi-phone-vibrate fs-4 text-white" />
+                                    <div className='col-2'>
+                                        <div className="bg-primary rounded-circle d-flex align-items-center justify-content-center" style={{ width: 60, height: 60 }}>
+                                            <i className="bi bi-phone-vibrate fs-4 text-white" />
+                                        </div>
                                     </div>
-                                    <div className="ps-3">
-                                        <h5 className="text-white">Call Us</h5>
-                                        <span className="text-white">+918405093165</span>
+                                    <div className='col-10'>
+                                        <div className="ps-3">
+                                            <h5 className="text-white">Call Us</h5>
+                                            <span className="text-white">+918405093165</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

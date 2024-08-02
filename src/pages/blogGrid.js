@@ -36,7 +36,7 @@ const BlogGrid = () => {
                         <div className="col-lg-8">
                             <div className="row g-5">
                                 <div className="col-md-6">
-                                    <div className="blog-item position-relative overflow-hidden">
+                                    <div className="blog-item position-relative overflow-hidden box-2" >
                                         <img className="img-fluid-blog w-100" src={blog1} alt="Image" />
                                         <a className="blog-overlay" href>
                                             <h4 className="text-white">Sweet, juicy, and organic—our litchis are naturally delicious</h4>
@@ -45,7 +45,7 @@ const BlogGrid = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="blog-item position-relative overflow-hidden">
+                                    <div className="blog-item position-relative overflow-hidden box-2">
                                         <img className="img-fluid-blog w-100" src={post2} alt="Image" />
                                         <a className="blog-overlay" href>
                                             <h4 className="text-white">Pure goodness in every bite: Enjoy our organic litchis</h4>
@@ -54,7 +54,7 @@ const BlogGrid = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="blog-item position-relative overflow-hidden">
+                                    <div className="blog-item position-relative overflow-hidden box-2" >
                                         <img className="img-fluid-blog w-100" src={post3} alt="Image" />
                                         <a className="blog-overlay" href>
                                             <h4 className="text-white">Handpicked and bursting with flavor, try our organic litchis</h4>
@@ -63,7 +63,7 @@ const BlogGrid = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="blog-item position-relative overflow-hidden">
+                                    <div className="blog-item position-relative overflow-hidden box-2">
                                         <img className="img-fluid-blog w-100" src={post4} alt="Image" />
                                         <a className="blog-overlay" href>
                                             <h4 className="text-white">Indulge in the best with our fresh organic litchis</h4>
@@ -72,7 +72,7 @@ const BlogGrid = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="blog-item position-relative overflow-hidden">
+                                    <div className="blog-item position-relative overflow-hidden box-2">
                                         <img className="img-fluid-blog w-100" src={post5} alt="Image" />
                                         <a className="blog-overlay" href>
                                             <h4 className="text-white">Fresh, sweet, and 100% organic—our litchis are perfect for you</h4>
@@ -81,7 +81,7 @@ const BlogGrid = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="blog-item position-relative overflow-hidden">
+                                    <div className="blog-item position-relative overflow-hidden box-2">
                                         <img className="img-fluid-blog w-100" src={post6} alt="Image" />
                                         <a className="blog-overlay" href>
                                             <h4 className="text-white">Experience the exceptional taste of our organic litchis</h4>
@@ -90,7 +90,7 @@ const BlogGrid = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="blog-item position-relative overflow-hidden">
+                                    <div className="blog-item position-relative overflow-hidden box-2">
                                         <img className="img-fluid-blog w-100" src={post7} alt="Image" />
                                         <a className="blog-overlay" href>
                                             <h4 className="text-white">Healthy, delicious, and organic—our litchis have it all</h4>
@@ -99,7 +99,7 @@ const BlogGrid = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="blog-item position-relative overflow-hidden">
+                                    <div className="blog-item position-relative overflow-hidden box-2">
                                         <img className="img-fluid-blog w-100" src={post8} alt="Image" />
                                         <a className="blog-overlay" href>
                                             <h4 className="text-white">Treat yourself to the natural sweetness of our organic litchis</h4>
@@ -108,7 +108,7 @@ const BlogGrid = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="blog-item position-relative overflow-hidden">
+                                    <div className="blog-item position-relative overflow-hidden box-2">
                                         <img className="img-fluid-blog w-100" src={post9} alt="Image" />
                                         <a className="blog-overlay" href>
                                             <h4 className="text-white">Organic litchis: The natural and healthy choice for you</h4>
@@ -117,7 +117,7 @@ const BlogGrid = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="blog-item position-relative overflow-hidden">
+                                    <div className="blog-item position-relative overflow-hidden box-2">
                                         <img className="img-fluid-blog w-100" src={blog3} alt="Image" />
                                         <a className="blog-overlay" href>
                                             <h4 className="text-white">Taste the difference with our fresh, organic litchis</h4>
@@ -202,7 +202,7 @@ const BlogGrid = () => {
                             </div>
                             {/* Recent Post End */}
                             {/* Image Start */}
-                            <div className="mb-5">
+                            <div className="mb-5 box-2">
                                 <img src={blog1} alt className="img-fluid rounded" />
                             </div>
                             {/* Image End */}

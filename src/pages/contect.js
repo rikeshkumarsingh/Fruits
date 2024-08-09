@@ -213,7 +213,8 @@ const Contect = () => {
                                     <div className='col-10'>
                                         <div className="ps-3">
                                             <h5 className="text-white">Email Us</h5>
-                                            <span className="text-white">rikeshsingh465@gmail.com</span>
+                                            {/* <span className="text-white">contactus@biharfruits.com</span> */}
+                                            <a className="text-white" href="mailto:contactus@biharfruits.com">contactus@biharfruits.com</a>
                                         </div>
                                     </div>
                                 </div>
@@ -226,7 +227,8 @@ const Contect = () => {
                                     <div className='col-10'>
                                         <div className="ps-3">
                                             <h5 className="text-white">Call Us</h5>
-                                            <span className="text-white">+918405093165</span>
+                                            {/* <span className="text-white">+918405093165</span> */}
+                                            <a className="text-white" href="tel:+918405093165">+918405093165</a>
                                         </div>
                                     </div>
                                 </div>

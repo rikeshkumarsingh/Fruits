@@ -20,11 +20,12 @@ const Footer = () => {
                                         </div>
                                         <div className="d-flex mb-2">
                                             <i className="bi bi-envelope-open text-white me-2" />
-                                            <p className="text-white mb-0">rikeshsingh465@gmail.com</p>
+                                            <a className="text-white mb-0" href="mailto:contactus@biharfruits.com">contactus@biharfruits.com</a>
+
                                         </div>
                                         <div className="d-flex mb-2">
                                             <i className="bi bi-telephone text-white me-2" />
-                                            <p className="text-white mb-0">+918405093165</p>
+                                            <a className="text-white mb-0" href="tel:+918405093165">+918405093165</a>
                                         </div>
                                         <div className="d-flex mt-4">
                                             <Link className="btn btn-secondary btn-square rounded-circle me-2" href="#"><i className="fab fa-facebook-f" /></Link>
